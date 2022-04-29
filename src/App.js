@@ -17,7 +17,7 @@ function App() {
         <Header text='Feedback Survey' />
         <div className='container'>
           <Routes>
-            <Route path='/' element={
+            <Route path='/*' element={
               <>
                 <FeedbackForm />
                 <FeedbackStats />
